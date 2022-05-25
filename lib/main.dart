@@ -74,14 +74,14 @@ class MyApp extends StatelessWidget {
                         color:  Colors.yellow,
                       ),
                       title: Text(
-                        '+251 929 13 55 31',
+                        '+251 942 13 48 13',
                         style: TextStyle(
                           fontFamily: 'Source Sans Pro',
                           color: Colors.yellow,
                         ),
                       ),
                       subtitle: Text(
-                        'Kalkidan M | CEO',
+                        'Kirubel K | CTO',
                         style: TextStyle(
                           fontFamily: 'Source Sans Pro',
                           fontStyle: FontStyle.italic,
@@ -104,14 +104,14 @@ class MyApp extends StatelessWidget {
                         color:  Colors.yellow,
                       ),
                       title: Text(
-                        'kalkidan.mulu@keenafrique.com',
+                        'kirubel.kassaye@keenafrique.com',
                         style: TextStyle(
                           fontFamily: 'Source Sans Pro',
                           color: Colors.yellow,
                         ),
                       ),
                       subtitle: Text(
-                        'Kalkidan M | CEO',
+                        'Kirubel K | CTO',
                         style: TextStyle(
                           fontFamily: 'Source Sans Pro',
                           fontStyle: FontStyle.italic,
