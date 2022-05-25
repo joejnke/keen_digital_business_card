@@ -133,76 +133,76 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 50.0),
-                    child: Card(
-                      margin: EdgeInsets.symmetric(
-                          vertical: 10.0,
-                          horizontal: 20.0),
-                      color: Colors.brown.shade800,
-                      child: ListTile(
-                        leading: Icon(
-                          Icons.phone,
-                          color:  Colors.yellow,
-                        ),
-                        title: Text(
-                          '+251 942 13 48 13',
-                          style: TextStyle(
-                            fontFamily: 'Source Sans Pro',
-                            color: Colors.yellow,
-                          ),
-                        ),
-                        subtitle: Text(
-                          'Kirubel K | CTO',
-                          style: TextStyle(
-                            fontFamily: 'Source Sans Pro',
-                            fontStyle: FontStyle.italic,
-                            color: Colors.blueGrey.shade400,
-                          ),
-                        ),
-                        trailing: Image.asset(
-                            "images/keenfavicon.png"
-                        ),
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 50.0),
-                    child: Card(
-                      margin: EdgeInsets.symmetric(
-                          vertical: 10.0,
-                          horizontal: 20.0),
-                      color: Colors.brown.shade800,
-                      child: ListTile(
-                        leading: Image.asset("images/keenfavicon.png"),
-                        title: Padding(
-                          padding: const EdgeInsets.only(left: 50.0),
-                          child: Text(
-                            'kirubel.kassaye@keenafrique.com',
-                            style: TextStyle(
-                              fontFamily: 'Source Sans Pro',
-                              color: Colors.yellow,
-                            ),
-                          ),
-                        ),
-                        subtitle: Padding(
-                          padding: const EdgeInsets.only(left: 50.0),
-                          child: Text(
-                            'Kirubel K | CTO',
-                            style: TextStyle(
-                              fontFamily: 'Source Sans Pro',
-                              fontStyle: FontStyle.italic,
-                              color: Colors.blueGrey.shade400,
-                            ),
-                          ),
-                        ),
-                        trailing: Icon(
-                          Icons.email,
-                          color:  Colors.yellow,
-                        ),
-                      ),
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.only(right: 50.0),
+                  //   child: Card(
+                  //     margin: EdgeInsets.symmetric(
+                  //         vertical: 10.0,
+                  //         horizontal: 20.0),
+                  //     color: Colors.brown.shade800,
+                  //     child: ListTile(
+                  //       leading: Icon(
+                  //         Icons.phone,
+                  //         color:  Colors.yellow,
+                  //       ),
+                  //       title: Text(
+                  //         '+251 942 13 48 13',
+                  //         style: TextStyle(
+                  //           fontFamily: 'Source Sans Pro',
+                  //           color: Colors.yellow,
+                  //         ),
+                  //       ),
+                  //       subtitle: Text(
+                  //         'Kirubel K | CTO',
+                  //         style: TextStyle(
+                  //           fontFamily: 'Source Sans Pro',
+                  //           fontStyle: FontStyle.italic,
+                  //           color: Colors.blueGrey.shade400,
+                  //         ),
+                  //       ),
+                  //       trailing: Image.asset(
+                  //           "images/keenfavicon.png"
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
+                  // Padding(
+                  //   padding: const EdgeInsets.only(left: 50.0),
+                  //   child: Card(
+                  //     margin: EdgeInsets.symmetric(
+                  //         vertical: 10.0,
+                  //         horizontal: 20.0),
+                  //     color: Colors.brown.shade800,
+                  //     child: ListTile(
+                  //       leading: Image.asset("images/keenfavicon.png"),
+                  //       title: Padding(
+                  //         padding: const EdgeInsets.only(left: 50.0),
+                  //         child: Text(
+                  //           'kirubel.kassaye@keenafrique.com',
+                  //           style: TextStyle(
+                  //             fontFamily: 'Source Sans Pro',
+                  //             color: Colors.yellow,
+                  //           ),
+                  //         ),
+                  //       ),
+                  //       subtitle: Padding(
+                  //         padding: const EdgeInsets.only(left: 50.0),
+                  //         child: Text(
+                  //           'Kirubel K | CTO',
+                  //           style: TextStyle(
+                  //             fontFamily: 'Source Sans Pro',
+                  //             fontStyle: FontStyle.italic,
+                  //             color: Colors.blueGrey.shade400,
+                  //           ),
+                  //         ),
+                  //       ),
+                  //       trailing: Icon(
+                  //         Icons.email,
+                  //         color:  Colors.yellow,
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               )
             ),
