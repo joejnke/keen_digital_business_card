@@ -63,146 +63,64 @@ class MyApp extends StatelessWidget {
                       color: Colors.blueGrey.shade400,
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 50.0),
-                    child: Card(
-                      margin: EdgeInsets.symmetric(
-                          vertical: 10.0,
-                          horizontal: 20.0),
-                      color: Colors.brown.shade800,
-                      child: ListTile(
-                          leading: Icon(
-                            Icons.phone,
-                            color:  Colors.yellow,
-                          ),
-                          title: Text(
-                            '+251 929 13 55 31',
-                            style: TextStyle(
-                              fontFamily: 'Source Sans Pro',
-                              color: Colors.yellow,
-                            ),
-                          ),
-                          subtitle: Text(
-                            'Kalkidan M | CEO',
-                            style: TextStyle(
-                              fontFamily: 'Source Sans Pro',
-                              fontStyle: FontStyle.italic,
-                              color: Colors.blueGrey.shade400,
-                            ),
-                          ),
-                          trailing: Image.asset(
-                              "images/keenfavicon.png"
-                          ),
+                  Card(
+                    margin: EdgeInsets.symmetric(
+                        vertical: 10.0,
+                        horizontal: 20.0),
+                    color: Colors.brown.shade800,
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.phone,
+                        color:  Colors.yellow,
+                      ),
+                      title: Text(
+                        '+251 929 13 55 31',
+                        style: TextStyle(
+                          fontFamily: 'Source Sans Pro',
+                          color: Colors.yellow,
+                        ),
+                      ),
+                      subtitle: Text(
+                        'Kalkidan M | CEO',
+                        style: TextStyle(
+                          fontFamily: 'Source Sans Pro',
+                          fontStyle: FontStyle.italic,
+                          color: Colors.blueGrey.shade400,
+                        ),
+                      ),
+                      trailing: Image.asset(
+                          "images/keenfavicon.png"
                       ),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 50.0),
-                    child: Card(
-                      margin: EdgeInsets.symmetric(
-                          vertical: 10.0,
-                          horizontal: 20.0),
-                      color: Colors.brown.shade800,
-                      child: ListTile(
-                        leading: Image.asset("images/keenfavicon.png"),
-                        title: Padding(
-                          padding: const EdgeInsets.only(left: 50.0),
-                          child: Text(
-                            'kalkidan.mulu@keenafrique.com',
-                            style: TextStyle(
-                              fontFamily: 'Source Sans Pro',
-                              color: Colors.yellow,
-                            ),
-                          ),
-                        ),
-                        subtitle: Padding(
-                          padding: const EdgeInsets.only(left: 50.0),
-                          child: Text(
-                            'Kalkidan M | CEO',
-                            style: TextStyle(
-                              fontFamily: 'Source Sans Pro',
-                              fontStyle: FontStyle.italic,
-                              color: Colors.blueGrey.shade400,
-                            ),
-                          ),
-                        ),
-                        trailing: Icon(
-                          Icons.email,
-                          color:  Colors.yellow,
+                  Card(
+                    margin: EdgeInsets.symmetric(
+                        vertical: 10.0,
+                        horizontal: 20.0),
+                    color: Colors.brown.shade800,
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.email,
+                        color:  Colors.yellow,
+                      ),
+                      title: Text(
+                        'kalkidan.mulu@keenafrique.com',
+                        style: TextStyle(
+                          fontFamily: 'Source Sans Pro',
+                          color: Colors.yellow,
                         ),
                       ),
+                      subtitle: Text(
+                        'Kalkidan M | CEO',
+                        style: TextStyle(
+                          fontFamily: 'Source Sans Pro',
+                          fontStyle: FontStyle.italic,
+                          color: Colors.blueGrey.shade400,
+                        ),
+                      ),
+                      trailing: Image.asset("images/keenfavicon.png"),
                     ),
                   ),
-                  // Padding(
-                  //   padding: const EdgeInsets.only(right: 50.0),
-                  //   child: Card(
-                  //     margin: EdgeInsets.symmetric(
-                  //         vertical: 10.0,
-                  //         horizontal: 20.0),
-                  //     color: Colors.brown.shade800,
-                  //     child: ListTile(
-                  //       leading: Icon(
-                  //         Icons.phone,
-                  //         color:  Colors.yellow,
-                  //       ),
-                  //       title: Text(
-                  //         '+251 942 13 48 13',
-                  //         style: TextStyle(
-                  //           fontFamily: 'Source Sans Pro',
-                  //           color: Colors.yellow,
-                  //         ),
-                  //       ),
-                  //       subtitle: Text(
-                  //         'Kirubel K | CTO',
-                  //         style: TextStyle(
-                  //           fontFamily: 'Source Sans Pro',
-                  //           fontStyle: FontStyle.italic,
-                  //           color: Colors.blueGrey.shade400,
-                  //         ),
-                  //       ),
-                  //       trailing: Image.asset(
-                  //           "images/keenfavicon.png"
-                  //       ),
-                  //     ),
-                  //   ),
-                  // ),
-                  // Padding(
-                  //   padding: const EdgeInsets.only(left: 50.0),
-                  //   child: Card(
-                  //     margin: EdgeInsets.symmetric(
-                  //         vertical: 10.0,
-                  //         horizontal: 20.0),
-                  //     color: Colors.brown.shade800,
-                  //     child: ListTile(
-                  //       leading: Image.asset("images/keenfavicon.png"),
-                  //       title: Padding(
-                  //         padding: const EdgeInsets.only(left: 50.0),
-                  //         child: Text(
-                  //           'kirubel.kassaye@keenafrique.com',
-                  //           style: TextStyle(
-                  //             fontFamily: 'Source Sans Pro',
-                  //             color: Colors.yellow,
-                  //           ),
-                  //         ),
-                  //       ),
-                  //       subtitle: Padding(
-                  //         padding: const EdgeInsets.only(left: 50.0),
-                  //         child: Text(
-                  //           'Kirubel K | CTO',
-                  //           style: TextStyle(
-                  //             fontFamily: 'Source Sans Pro',
-                  //             fontStyle: FontStyle.italic,
-                  //             color: Colors.blueGrey.shade400,
-                  //           ),
-                  //         ),
-                  //       ),
-                  //       trailing: Icon(
-                  //         Icons.email,
-                  //         color:  Colors.yellow,
-                  //       ),
-                  //     ),
-                  //   ),
-                  // ),
                 ],
               )
             ),
